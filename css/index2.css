@@ -13,7 +13,7 @@
     background-color: white;
   }
   
-  .img5 {
+  .img5, .img5_text {
     width: 1000px;
     height: 150px;
     margin: 50px auto;
@@ -22,8 +22,13 @@
     justify-content: space-between;
   }
 
-  .img5 li {
+  .img5 li, .img5_text li {
     width : 18%; height:100%;
     border: 1px solid blue;
+  }
+  .img5_text li {
+    height: 30px;
+    margin-top:-50px;
+    border: 1px solid #ccc;
   }
   
